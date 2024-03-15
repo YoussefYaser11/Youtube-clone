@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">    
+<link rel="stylesheet" href="css/youtube.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="images/youtube-logo.png" class="w-50" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link"><i class="material-icons">account_circle</i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="material-icons">apps</i></a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="material-icons">video_call</i></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="material-icons">notifications</i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light me-2" type="submit"><i class="material-icons">search</i></button>
+              <button class="btn btn-light" type="submit"><i class="material-icons mic">mic</i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="content-area">
+        <aside>
+            <nav>
+                <a href="#" class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span id="active-span">Home</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">explore</i>
+                    <span>Explore</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">subscriptions</i>
+                    <span>Subscription</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">ondemand_video</i>
+                    <span>Originals</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">play_circle_outline</i>
+                    <span>Youtube Music</span>
+                </a>
+                
+                <hr>
+
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">video_library</i>
+                    <span>Library</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">smart_display</i>
+                    <span>Your Videos</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">download</i>
+                    <span>Downloads</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons-outlined">thumb_up</i>
+                    <span>Liked Video</span>
+                </a>
+                <hr>
+                <p>subscriptions</p>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img class="channel-img" src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                    <span>Useif Yaser</span>
+                </a>
+                <hr>
+            </nav>
+        </aside>
+        <main>
+            <div class="videos-container">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/main-qimg-ad85d7a83bbe526f8e3ed1c495ffb380-lq.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/Website-Development-Company.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/الوضع-الليلي-و-البرمجة-لماذا-يحبه-المبرمجون-و-مطورو-الألعاب.png" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/1953480051_--.png.26187a69864c26f0e72baded41ccd6c4.png" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/background.jpeg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/a4d668117f61ac3aa4a300f43c684390_thumb.png" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/360_F_531710260_ByieqNe7Ut6QBHgIR7xgdsxH7gICrHr1.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/360_F_486604480_EKKklldKqiwmvAunlEeF4QdI0dfjDojA.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/web.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="images/ما الفرق بين مطور الويب ومصمم الويب.jpg" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="images/pngtree-logo-icon-letter-y-colorfull-image_318778.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="" class="video-title">
+                                Front-End Web Developer
+                            </a>
+                            <a href="" class="video-creator">
+                               Useif Yaser
+                            </a>
+                            <span>10M Veiws * 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <span class="loader"></span>  
+            </div>
+        </main>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
